@@ -1,0 +1,59 @@
+---
+name: Shylock 
+surname: Muyengwa
+position: "M & E consultant, CBNRM and Governance Expert, Baseline and Impact Evaluation Expert"
+address: "15 Ridge Road Avondale, Harare, Zimbabwe"
+phone: +263 779 970 322
+www: www.c4ierd.org
+email: "shylock.muyengwa@gmail.com"
+twitter: shylockmuyengwa
+github: smuyengwa79
+linkedin: shylockmuyengwa
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Professional Summary
+
+Dr Shylock Muyengwa has more than 15 years of relevant experience in rigorous research design and analysis/evaluation and survey design. Some of these skills sets include survey design and implementation, participatory methodologies,structured interviews, and focus group facilitation. In his capacity as the managing consultant for the Center for Impact Evaluation and Research Design,he supports several organizations in developing baseline tools, conducts longitudinal studies, program evaluations, data analysis and synthesis of data to inform project implementations. Also, in his evaluation work, he supports organizations to develop management strategies to enhance project impacts and effectiveness.Dr Muyengwa main strength includes more than seven years' experience working on M&E and knowledge management systems
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "PhD Interdisciplinary Studies", "2008-2019", "University of Florida", "Gainesville, Florida, USA",
+  "Master of Social Ecology", "2003-2005", "University of Zimbabwe", "Harare, Zimbabwe",
+  "Bsc Hons. Psychology", "1999-2002", "University of Zimbabwe", "Harare, Zimbabwe"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Nobel Prizes
+
+```{r}
+tribble(
+  ~Year, ~Type, ~Desc,
+  1903, "Physics", "Awarded for her work on radioactivity with Pierre Curie and Henri Becquerel",
+  1911, "Chemistry", "Awarded for the discovery of radium and polonium"
+) %>% 
+  brief_entries(
+    glue::glue("Nobel Prize in {Type}"),
+    Year, 
+    Desc
+  )
+```
+
+# Publications
+
+```{r}
+library(dplyr)
+bibliography_entries("packages.bib") %>%
+  arrange(desc(author$family), issued)
+```
