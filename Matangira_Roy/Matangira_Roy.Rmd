@@ -1,0 +1,111 @@
+---
+name: Roy Tamuka
+surname: Matangira
+position: "Demographer, Governance, & Social Research Expert"
+address: "Macheke, Zimbabwe"
+phone: +263 71 992 5436
+www: www.c4ierd.org
+email: "roymatangira1@gmail.com"
+twitter: matangiraroy
+linkedin: roymatangira
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Professsional Summary
+
+A trained demographer with specialization in Sexual Reproductive Health and Rights (SRHR) in developing country settings and ongoing education in environmental peacebuilding and security, population and governance issues around contemporary development paradigms such as Climate change and the Green economy, community-based development and natural resource and wildlife conservation. I have a background in social research, climate change, environmental and wildlife conservation, rural livelihoods, psychology, governance and university teaching and learning. I hold a Master of Science in Population Studies (University of Groningen, Netherlands) and Bachelor of Science in Psychology (University of Zimbabwe). I have previous working experience in Government (Prime Minister's Office), Population (Zimbabwe Census Office), Diplomacy (Min of Foreign Affairs), Higher Education (University of Zimbabwe) and Media (C Media Africa). I am passionate about humanitarian work, particularly along the United Nations models of international diplomacy and sustainable development. I have significant experience through studying and working both locally and abroad, thus acquiring a high degree of intercultural awareness. A consensus builder with a proven track record, I am also an effective strategist with a can do and results-focused approach to assignments at hand. The aim of my work is to have deeper understanding of the workings of the lives of the people who take part in my research and work, with a view to make a difference in their lives.
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "MSc Population Studies", "2012-2013", "University of Groningen", "Groningen, Netherlands",
+  "Bsc Pyschology", "2000-2004", "University of Zimbabwe", "Harare, Zimbabwe",
+  "Monitoring and Evaluation Fundamentals", "2019", "Global Health E-Learning Centre", "Online",
+  "Environmental Security and Sustaining Peace", "2019", "SDG Adacemy", "Online"
+) %>%
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Vocation Experience
+
+
+**Current: Associate Researcher, Center for Impact Evaluation and Research Design** I am part of a team at this Organisation that does work in Impact Evaluation, Research Design, Training and Advocacy with particular focus on rural livelihoods, environmental and wildlife conservation, climate change and governance from CSO/ NGO perspectives.
+
+
+**April 2012 to August 2012: Research Assistant, Prime Minister's Office, Zimbabwe Coalition Government.** I worked under the Prime Minister's Security Adviser as part of the research team monitoring political developments during the 2008-2012 Government of National Unity and advising the leadership.
+
+**August 2010 to May 2011: Research
+Assistant, Zimbabwe Census Office and Macro International** I took part in two national surveys, the 2010-11 Zimbabwe Demographic and Health Survey (DHS) and the 2011 Zimbabwe National Health Accounts Survey. I was part of the team that carried out surveys in Mashonaland East province, Zimbabwe. I conducted interviews with male participants and collected blood samples for HIV and anaemia testing. Experience gained was essentially on the practical aspects of research on the ground among low-income members of society. I also gained exposure to team dynamics and managing relationships with government and other stakeholders in doing research of such nature.
+
+
+**January 2005: Administration Officer (Trainee diplomat), Ministry of Foreign Affairs, Zimbabwe** I was one of the group of young professionals recruited to join the diplomatic services of Zimbabwe under the Ministry of Foreign Affairs. However, I left the post on principle because I felt disagreeable with the country’s foreign policy. 
+
+
+**September 2004 to February 2008: Teaching Assistant, Psychology Department, University of Zimbabwe** I assisted the Social Psychology Lecturer. This entailed conducting tutorials, consulting students, marking assignments, and taking lectures as assigned by the lecturer. I was also a trainee to become a university lecturer. The experience I acquired over the period relates to how to research on relevant subject matter, making presentations through the lectures and tutorials as well as basic administration.
+
+
+# Volunteer Experience
+
+
+**Current:** Currently volunteer 5 hours a week among the homeless living in a dump site in Harare commonly referred to as the Golden Quarry dump site. 
+
+
+**Sept 2004 to April 2012:** Eight years experience in the Movement for Democracy in Zimbabwe.
+
+
+# Research Experience
+
+
+**Current, Research Assistant:** Building a case for developing a regional M & E Tool for the SADC region Community Based Natural Resource Management approach to Parks and Wildlife Conservation for Resource Africa with CFIERD Projects
+
+
+**April 2021, Research Assistant:** Evaluation of the Africa Wildlife Foundation Proposed Chizarira Elephant Translocation programme with CFIERD Projects.
+
+
+**March 2021, Research Assistant:** Developing a Business Case for IDBZ’s Climate Facility with CFIERD Projects
+
+
+**February 2021, Research Assistant:** Evaluation of the United Nations Climate Change Learn programme in Zimbabwe with CFIERD Projects 
+
+
+**January 2021, Research Assistant:** European Union Donor Mapping in Zimbabwe with CFIERD Projects
+
+
+**October 2020, Research Assistant:** Resource Africa Hunting Quotas Database compilation with CFIERD Projects
+
+
+**September 2020: Research Assistant** in the endline Evaluation of the USAID’s Feed the Future Zimbabwe Livelihood Programmes with CFIERD Projects
+
+
+**December 2019: Research Assistant** in the Evaluation of the World Vision/Higherlife Foundation’s Education Initiatives in Matabeleland North, Zimbabwe with CFIERD Projects.
+
+
+**September, 2019: Research Assistant** in the Evaluation of the US President’s Malaria Initiative Zimbabwe Assistance in Malaria Programme (PMI ZAPIM) with MCG Consulting Group.
+
+
+**July 2010 to June 2011: Research Assistant** in the Zimbabwe Demographic and Health Survey (ZDHS 2010-2011).
+
+
+**May 2011 to June 2011: Research Assistant** in the Zimbabwe National Health Accounts Survey 
+
+
+# Computer Skills: 
+
+MS Word; MS Excel; PowerPoint; SPSS; Geographic Information Systems; R studio; Online communication tools – Skype, Zoom; Video editing tools – Adobe Premier Pro, Photoshop
+
+# References
+
+-   Dr. Shylock Muyengwa, Centre for Impact Evaluation and Research Design. 15 Ridge Road Avondale,Harare, Zimbabwe. E-mail: [shylock.muyengwa\@gmail.com](mailto:shylock.muyengwa@gmail.com){.email}. Cell: 263 779 970 322
+
+-   Dr. Louise Meijering, University of Groningen, Faculty of Spatial Sciences, Landleven 1 9747 AD Groningen, The Netherlands. Email: [l.b.meijering\@rug.nl](mailto:l.b.meijering@rug.nl){.email}. Tel: +31 50 36 39078
+
+-   Prof. Clara Mulder, University of Groningen, Faculty of Spatial Sciences, Landleven 1 9747 AD Groningen, The Netherlands. Email: [c.h.mulder\@rug.nl](mailto:c.h.mulder@rug.nl){.email}. Tel: +31 50 36 34549
